@@ -19,6 +19,20 @@
 		EAFAF5C41899C44300C1B240 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFAF5AC1899C44200C1B240 /* UIKit.framework */; };
 		EAFAF5CC1899C44300C1B240 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAFAF5CA1899C44300C1B240 /* InfoPlist.strings */; };
 		EAFAF5CE1899C44300C1B240 /* ParseSpeedTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFAF5CD1899C44300C1B240 /* ParseSpeedTestTests.m */; };
+		EAFAF5D81899C47700C1B240 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFAF5D71899C47700C1B240 /* Parse.framework */; };
+		EAFAF5DA1899C58900C1B240 /* 1mb.txt in Resources */ = {isa = PBXBuildFile; fileRef = EAFAF5D91899C58900C1B240 /* 1mb.txt */; };
+		EAFAF5DC1899C76B00C1B240 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFAF5DB1899C76B00C1B240 /* SystemConfiguration.framework */; };
+		EAFAF5DE1899C78400C1B240 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFAF5DD1899C78400C1B240 /* AudioToolbox.framework */; };
+		EAFAF5E01899C78900C1B240 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFAF5DF1899C78900C1B240 /* CFNetwork.framework */; };
+		EAFAF5E21899C79200C1B240 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFAF5E11899C79200C1B240 /* CoreLocation.framework */; };
+		EAFAF5E41899C79800C1B240 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFAF5E31899C79800C1B240 /* libz.1.1.3.dylib */; };
+		EAFAF5E61899C79C00C1B240 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFAF5E51899C79C00C1B240 /* MobileCoreServices.framework */; };
+		EAFAF5E81899C7A000C1B240 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFAF5E71899C7A000C1B240 /* QuartzCore.framework */; };
+		EAFAF5EA1899C7A500C1B240 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFAF5E91899C7A500C1B240 /* Security.framework */; };
+		EAFAF5EC1899C7A900C1B240 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFAF5EB1899C7A900C1B240 /* StoreKit.framework */; };
+		EAFAF5F01899C82B00C1B240 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFAF5EE1899C82B00C1B240 /* ViewController.m */; };
+		EAFAF5F11899C82B00C1B240 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAFAF5EF1899C82B00C1B240 /* ViewController.xib */; };
+		EAFAF5F41899CD7000C1B240 /* SpeedTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFAF5F31899CD7000C1B240 /* SpeedTestObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +62,22 @@
 		EAFAF5C91899C44300C1B240 /* ParseSpeedTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ParseSpeedTestTests-Info.plist"; sourceTree = "<group>"; };
 		EAFAF5CB1899C44300C1B240 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EAFAF5CD1899C44300C1B240 /* ParseSpeedTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParseSpeedTestTests.m; sourceTree = "<group>"; };
+		EAFAF5D71899C47700C1B240 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		EAFAF5D91899C58900C1B240 /* 1mb.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 1mb.txt; sourceTree = "<group>"; };
+		EAFAF5DB1899C76B00C1B240 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EAFAF5DD1899C78400C1B240 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EAFAF5DF1899C78900C1B240 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		EAFAF5E11899C79200C1B240 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EAFAF5E31899C79800C1B240 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		EAFAF5E51899C79C00C1B240 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		EAFAF5E71899C7A000C1B240 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EAFAF5E91899C7A500C1B240 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		EAFAF5EB1899C7A900C1B240 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		EAFAF5ED1899C82B00C1B240 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EAFAF5EE1899C82B00C1B240 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EAFAF5EF1899C82B00C1B240 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		EAFAF5F21899CD7000C1B240 /* SpeedTestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeedTestObject.h; sourceTree = "<group>"; };
+		EAFAF5F31899CD7000C1B240 /* SpeedTestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeedTestObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +85,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAFAF5EC1899C7A900C1B240 /* StoreKit.framework in Frameworks */,
+				EAFAF5EA1899C7A500C1B240 /* Security.framework in Frameworks */,
+				EAFAF5E81899C7A000C1B240 /* QuartzCore.framework in Frameworks */,
+				EAFAF5E61899C79C00C1B240 /* MobileCoreServices.framework in Frameworks */,
+				EAFAF5E41899C79800C1B240 /* libz.1.1.3.dylib in Frameworks */,
+				EAFAF5E21899C79200C1B240 /* CoreLocation.framework in Frameworks */,
 				EAFAF5AB1899C44200C1B240 /* CoreGraphics.framework in Frameworks */,
+				EAFAF5E01899C78900C1B240 /* CFNetwork.framework in Frameworks */,
+				EAFAF5DE1899C78400C1B240 /* AudioToolbox.framework in Frameworks */,
+				EAFAF5DC1899C76B00C1B240 /* SystemConfiguration.framework in Frameworks */,
+				EAFAF5D81899C47700C1B240 /* Parse.framework in Frameworks */,
 				EAFAF5AD1899C44200C1B240 /* UIKit.framework in Frameworks */,
 				EAFAF5A91899C44200C1B240 /* Foundation.framework in Frameworks */,
 			);
@@ -96,6 +136,16 @@
 		EAFAF5A71899C44200C1B240 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EAFAF5EB1899C7A900C1B240 /* StoreKit.framework */,
+				EAFAF5E91899C7A500C1B240 /* Security.framework */,
+				EAFAF5E71899C7A000C1B240 /* QuartzCore.framework */,
+				EAFAF5E51899C79C00C1B240 /* MobileCoreServices.framework */,
+				EAFAF5E31899C79800C1B240 /* libz.1.1.3.dylib */,
+				EAFAF5E11899C79200C1B240 /* CoreLocation.framework */,
+				EAFAF5DF1899C78900C1B240 /* CFNetwork.framework */,
+				EAFAF5DD1899C78400C1B240 /* AudioToolbox.framework */,
+				EAFAF5DB1899C76B00C1B240 /* SystemConfiguration.framework */,
+				EAFAF5D71899C47700C1B240 /* Parse.framework */,
 				EAFAF5A81899C44200C1B240 /* Foundation.framework */,
 				EAFAF5AA1899C44200C1B240 /* CoreGraphics.framework */,
 				EAFAF5AC1899C44200C1B240 /* UIKit.framework */,
@@ -109,6 +159,11 @@
 			children = (
 				EAFAF5B71899C44200C1B240 /* AppDelegate.h */,
 				EAFAF5B81899C44200C1B240 /* AppDelegate.m */,
+				EAFAF5ED1899C82B00C1B240 /* ViewController.h */,
+				EAFAF5EE1899C82B00C1B240 /* ViewController.m */,
+				EAFAF5F21899CD7000C1B240 /* SpeedTestObject.h */,
+				EAFAF5F31899CD7000C1B240 /* SpeedTestObject.m */,
+				EAFAF5EF1899C82B00C1B240 /* ViewController.xib */,
 				EAFAF5BA1899C44200C1B240 /* Images.xcassets */,
 				EAFAF5AF1899C44200C1B240 /* Supporting Files */,
 			);
@@ -118,6 +173,7 @@
 		EAFAF5AF1899C44200C1B240 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EAFAF5D91899C58900C1B240 /* 1mb.txt */,
 				EAFAF5B01899C44200C1B240 /* ParseSpeedTest-Info.plist */,
 				EAFAF5B11899C44200C1B240 /* InfoPlist.strings */,
 				EAFAF5B41899C44200C1B240 /* main.m */,
@@ -219,7 +275,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAFAF5DA1899C58900C1B240 /* 1mb.txt in Resources */,
 				EAFAF5B31899C44200C1B240 /* InfoPlist.strings in Resources */,
+				EAFAF5F11899C82B00C1B240 /* ViewController.xib in Resources */,
 				EAFAF5BB1899C44200C1B240 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +297,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAFAF5F41899CD7000C1B240 /* SpeedTestObject.m in Sources */,
+				EAFAF5F01899C82B00C1B240 /* ViewController.m in Sources */,
 				EAFAF5B91899C44200C1B240 /* AppDelegate.m in Sources */,
 				EAFAF5B51899C44200C1B240 /* main.m in Sources */,
 			);
@@ -361,6 +421,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/axwilliamson/Dropbox/Programming/Objective-C/ParseSpeedTest",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ParseSpeedTest/ParseSpeedTest-Prefix.pch";
 				INFOPLIST_FILE = "ParseSpeedTest/ParseSpeedTest-Info.plist";
@@ -374,6 +438,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/axwilliamson/Dropbox/Programming/Objective-C/ParseSpeedTest",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ParseSpeedTest/ParseSpeedTest-Prefix.pch";
 				INFOPLIST_FILE = "ParseSpeedTest/ParseSpeedTest-Info.plist";
